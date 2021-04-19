@@ -1,6 +1,7 @@
 ---
 name: "Digital land frontend"
 status: "beta"
+summary: "A python package used to generate the digital land pages. Includes templates, stylesheets and javascript modules."
 ---
 
 A set of frontend assets that can be used to apply the digital land visual language to services and sites.

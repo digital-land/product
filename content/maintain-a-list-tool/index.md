@@ -4,6 +4,7 @@ status: "idea"
 repo:
     name:
     url:
+summary: "This product makes it easy to manage lists of data."
 ---
 
 A tool for maintaining CSV lists or registers.
@@ -24,6 +25,7 @@ We'd like to build a tool to help manage these lists. It needs to allow users to
 
 * colleagues in planning policy will be the custodians of MHCLG registers (i.e. lists of permitted development rights, lists of use classes)
 * planning policy colleagues will not be using GitHub to maintain the MHCLG registers
+* a tool will help us hide the complexity of the dates for an entity
 
 
 ## What we've done so far

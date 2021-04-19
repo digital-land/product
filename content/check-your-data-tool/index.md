@@ -4,6 +4,7 @@ status: "beta"
 repo:
     name:
     url:
+summary: "This tool plays back the data a user has produced to help them check the accuracy."
 ---
 
 A tool that helps data providers determine whether the data they’ve made is valid and accurate.

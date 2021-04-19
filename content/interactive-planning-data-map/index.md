@@ -1,6 +1,7 @@
 ---
 name: "Interactive planning data map"
 status: "in-progress"
+summary: "A map product we use to make our planning data interactive."
 ---
 
 A mapping tool that allows us to plug in planning data. Planning data will be displayed on the map, users will be able to interactive with it and find out more of the data behind the geometries.
