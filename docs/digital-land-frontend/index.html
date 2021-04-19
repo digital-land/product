@@ -151,11 +151,31 @@
 <h1 class="govuk-heading-xl">
     Digital land frontend
     <div>
-        <strong class="govuk-tag govuk-!-margin-top-4 govuk-!-margin-bottom-0">in-progress</strong>
+        <strong class="govuk-tag govuk-!-margin-top-4 govuk-!-margin-bottom-0">beta</strong>
     </div>
 </h1>
 
+<p class="govuk-body">A set of frontend assets that can be used to apply the digital land visual language to services and sites.</p>
+<div class="highlight-box--cta">
+<p class="govuk-body" class="govuk-body">Digital land frontend is available on <a href="https://github.com/digital-land/frontend">github</a></p>
+</div>
 
+<h2 class="govuk-heading-l" id="why-we-are-building-this">Why we are building this</h2>
+<p class="govuk-body">There are 2 main reasons to build our frontend product:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>consistency for our users</li>
+<li>convenience for digital land team</li>
+</ul>
+<p class="govuk-body">When we build prototypes, services and the digital land platform we want to maintain consistency. Consistency means our users will get a familiar experience irrespective of which service or part of the site they are on. A user can build up a mental model of how to interact with our site and services, for example, if a user sees a data record on our site they should know that any "identifer" fields will link through the associated data record.</p>
+<p class="govuk-body">Having components to reuse means common problems are solved once and then we move on to the next problem. The alternative is repeatedly solving the same problem.</p>
+<p class="govuk-body">It makes it easier to maintain the digital land platform and site. If we make a change to a component in the frontend then it will be applied to all parts of the site using the component.</p>
+<h2 class="govuk-heading-l" id="what-weve-done-so-far">What we've done so far</h2>
+<p class="govuk-body">Converted the <a href="https://github.com/alphagov/govuk-frontend">GOVUK frontend components</a> to Jinja in <a href="https://github.com/digital-land/govuk-jinja-components">govuk-jinja-components</a>.</p>
+<p class="govuk-body">Created page templates to use for specific page types. For example, there is <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/templates/dlf-base.html">a base template</a> and a template for <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/templates/page-per-thing/record.html">record pages</a>.</p>
+<p class="govuk-body">Created a number of components. These include a <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/templates/components/data-record/macro.html">data record component</a> and a <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/templates/components/filter-group/macro.html">filter group component</a>. Examples of the components are on the <a href="https://digital-land.github.io/design-system/">design system</a>.</p>
+<p class="govuk-body">Created a <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/static/stylesheets/dl-frontend.css">digital land stylesheet</a>. This includes all the styles for the digital land components.</p>
+<p class="govuk-body">Create <a href="https://github.com/digital-land/frontend/blob/main/digital_land_frontend/static/javascripts/dl-frontend.js">DLFrontend.js</a>. This a javascript library with a number of modules used to progressively enhance our components.</p>
+<p class="govuk-body">Create <a href="">DLMaps.js</a>. A javascript library for our map related components.</p>
 
 
 <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
