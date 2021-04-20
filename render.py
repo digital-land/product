@@ -21,6 +21,7 @@ def get_file_content(filename):
     return {
         "name": file_content["attributes"].get("name"),
         "status": file_content["attributes"].get("status"),
+        "summary": file_content["attributes"].get("summary"),
         "frontmatter": file_content["attributes"],
         "body": compile_markdown(file_content["body"], md),
     }
@@ -54,4 +55,4 @@ for top_level_page in top_level_pages:
 
 
 # generate index page
-render(f"index.html", index_template, top_level_pages=processed_top_level_pages)
+render(f"index.html", index_template, top_level_pages=sorted(processed_top_level_pages, key=lambda k: k['name']))
